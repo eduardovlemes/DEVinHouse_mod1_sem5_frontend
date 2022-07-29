@@ -45,3 +45,35 @@ const calcularRaizQuadrada = numero => {
 }
 console.log(calcularRaizQuadrada(9))
 console.log(calcularRaizQuadrada(-9))
+
+
+
+
+
+
+//----- Exercício 7 ----- Crie uma arrow function que receba uma string e devolva um objeto com as informações: quantos caracteres a string possui qual seu primeiro caracter e qual seu último caractere
+const avaliarString = (texto) => { 
+    const objeto = {        
+    tamanho : texto.length,
+    primeiraLetra : texto[0],
+    ultimaLetra : texto[texto.length - 1]
+    }
+    console.log(objeto);
+}
+avaliarString('Perplexointorpigaitado');
+
+
+const contString = ((string= {}) => {
+    let tamanhoChar = string.length;
+    let primeiroChar = string.substring(0,1);
+    let ultimoChar = string.substring(tamanhoChar-1, tamanhoChar);
+
+    const objetoChar = {
+        qtdChar: tamanhoChar,
+        primeiraLetra: primeiroChar,
+        ultimaLetra: ultimoChar
+      };
+     return objetoChar 
+});
+
+console.log(contChar('Palavra'));
