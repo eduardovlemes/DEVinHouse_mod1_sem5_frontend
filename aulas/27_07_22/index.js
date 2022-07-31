@@ -265,21 +265,6 @@ const multiplicar = function(a, b) {
   
   realizaRepeticoes(10, imprimeTabuadaDeUmNumero)
   
-  Footer
-  © 2022 GitHub, Inc.
-  Footer navigation
-  Terms
-  Privacy
-  Security
-  Status
-  Docs
-  Contact GitHub
-  Pricing
-  API
-  Training
-  Blog
-  About
-  
 
 
 //---- Exercício 2 ---- Utilize o if ternário para construir uma função que recebe o número de dias e retorna se o número pertence a primeira ou a segunda quinzena.
